@@ -17,7 +17,7 @@ class Main
                 Git.puts_git(gets.strip)
                 menu
             when 2 
-                exit 
+                Git.config 
             else 
                 puts "Invalid choice".colorize(:red) 
                 menu   
