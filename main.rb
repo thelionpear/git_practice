@@ -18,6 +18,8 @@ class Main
                 menu
             when 2 
                 Git.config 
+            when 3
+                exit 
             else 
                 puts "Invalid choice".colorize(:red) 
                 menu   
